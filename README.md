@@ -15,7 +15,7 @@ By acting as both the end-user (generating requests) and the IT Support Agent (t
 Below is the centralized agent dashboard showing the status, priority levels, and assignments of active and closed service requests handled during this lab.
 
 ### Agent Workspace
-![Spiceworks Help Desk Dashboard](images/Capture4.png)
+![Spiceworks Help Desk Dashboard](images/Capture4.PNG)
 
 ---
 
@@ -29,7 +29,7 @@ Below is the centralized agent dashboard showing the status, priority levels, an
 **Triage:** Ticket assigned to agent; priority escalated to Medium to ensure minimal user downtime.
 
 *Place your screenshot showing the specific ticket details, internal notes, and customer reply here:*
-![Scenario 1 Ticket Details](images/Capture1.png)
+![Scenario 1 Ticket Details](images/Capture.PNG)
 
 ---
 
@@ -41,7 +41,7 @@ Below is the centralized agent dashboard showing the status, priority levels, an
 **Triage:** Assigned to agent workflow. Verified management approval for the access modification.
 
 *Place your screenshot showing the access modification ticket lifecycle here:*
-![Scenario 2 Ticket Details](images/Capture2.png)
+![Scenario 2 Ticket Details](images/Capture2.PNG)
 
 ---
 
@@ -52,7 +52,7 @@ Below is the centralized agent dashboard showing the status, priority levels, an
 #### Technical Resolution & Documentation
 **Triage:** Escalated immediately to High priority. Due date set explicitly for 5:00 PM to meet security compliance compliance guidelines.
 
-![Scenario 3 Ticket Details](images/Capture3.png)
+![Scenario 3 Ticket Details](images/Capture3.PNG)
 
 ---
 
