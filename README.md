@@ -41,7 +41,7 @@ Below is the centralized agent view showing the status, priority levels, and ass
 **Triage:** Assigned to agent workflow. Verified management approval for the access modification.
 
 *Place your screenshot showing the access modification ticket lifecycle here:*
-![Scenario 2 Ticket Details](images/Capture.PNG)
+![Scenario 2 Ticket Details](images/Capture3.PNG)
 
 ---
 
@@ -52,7 +52,7 @@ Below is the centralized agent view showing the status, priority levels, and ass
 #### Technical Resolution & Documentation
 **Triage:** Escalated immediately to High priority. Due date set explicitly for 5:00 PM to meet security compliance compliance guidelines.
 
-![Scenario 3 Ticket Details](images/Capture3.PNG)
+![Scenario 3 Ticket Details](images/Capture.PNG)
 
 ---
 
