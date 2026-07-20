@@ -12,7 +12,7 @@ By acting as both the end-user (generating requests) and the IT Support Agent (t
 ---
 
 ## Ticket Overview
-Below is the centralized agent dashboard showing the status, priority levels, and assignments of active and closed service requests handled during this lab.
+Below is the centralized agent view showing the status, priority levels, and assignments of the closed service requests handled during this lab.
 
 ### Agent Workspace
 ![Spiceworks Help Desk Dashboard](images/Capture4.PNG)
