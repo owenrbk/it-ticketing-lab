@@ -28,7 +28,6 @@ Below is the centralized agent view showing the status, priority levels, and ass
 #### Technical Resolution & Documentation
 **Triage:** Ticket assigned to agent; priority escalated to Medium to ensure minimal user downtime.
 
-*Place your screenshot showing the specific ticket details, internal notes, and customer reply here:*
 ![Scenario 1 Ticket Details](images/Capture2.PNG)
 
 ---
@@ -40,7 +39,6 @@ Below is the centralized agent view showing the status, priority levels, and ass
 #### Technical Resolution & Documentation
 **Triage:** Assigned to agent workflow. Verified management approval for the access modification.
 
-*Place your screenshot showing the access modification ticket lifecycle here:*
 ![Scenario 2 Ticket Details](images/Capture3.PNG)
 
 ---
