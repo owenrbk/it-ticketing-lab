@@ -56,6 +56,33 @@ Below is the centralized agent view showing the status, priority levels, and ass
 
 ---
 
+### Scenario 4: Critical Network Degradation & Tier 3 Escalation
+*   **Priority:** Critical / Urgent (High business impact, widespread productivity outage)
+*   **User Issue:** Received four consecutive tickets and multiple urgent phone calls within a 10-minute window from users across both the Finance and Operations wings on Floor 2. Users report that corporate VoIP desk phones are completely dropping active client calls, and the cloud-based ERP management system is failing to load, displaying "Connection Timed Out" errors.
+
+#### Technical Triage & Proper Handling Workflow
+1.  **Pattern Recognition:** Recognized the immediate correlation between multiple distinct users in the same physical area, instantly bypassing time-wasting endpoint troubleshooting (such as rebooting individual laptops or swapping desk phone cables).
+2.  **Information Gathering:** Logged into a remote test environment on the affected floor segment to run baseline network diagnostics. Executed a continuous ping (`ping -t`) to the local default gateway, observing **38% packet loss** and severe latency spikes fluctuating between 600ms and 1200ms. 
+3.  **Isolating Scope:** Run a `tracert` to the external cloud ERP environment, verifying that the packet drops and latency spikes were originating directly at the Floor 2 intermediate distribution switch stack. Confirmed via the monitoring tools that users on Floor 1 and Floor 3 were operating with 0% packet loss, successfully narrowing the failure domain to Floor 2 infrastructure.
+4.  **Professional Escalation:** Compiled the collected metrics, scope boundaries, and log outputs into a highly structured, clear escalation ticket directed to the Network Engineering team.
+
+#### Technical Escalation & Documentation
+*   **Internal IT Escalation Notes (Routed to Network Engineering):**
+    > *“CRITICAL ESCALATION: Localized network degradation and high packet loss detected on Floor 2 (VLAN 20). Multiple users reporting dropped VoIP calls and ERP timeouts. Tier 1 diagnostics confirm ~38% packet loss and severe latency spikes (600ms–1200ms) originating at the Floor 2 distribution switch (`SW-FL2-DIST-01`). Ping tests to Floor 1 and Floor 3 gateways remain completely nominal (0% loss, <2ms). Endpoint hardware issues ruled out. Escalating to Tier 3 Network Engineering to investigate potential spanning-tree loops, broadcast storms, or hardware interface errors on the switch stack. Keeping ticket ownership open for user communications.”*
+
+**User Message**
+"Hi Help Desk,
+
+I need someone to come up to Floor 2 right now. I was right in the middle of an incredibly important end-of-quarter reconciliation call with our primary vendor and my desk phone completely cut out and hung up on them. Now the screen on my phone just says 'Discovering...' and won't give me a dial tone.
+
+On top of that, I am trying to pull up the ERP system to process today's invoice batch, but the web page just spins continuously for a few minutes before giving me a 'Connection Timed Out' error.
+
+I thought it was just my computer, but Mark in the cubicle right next to me (Cube 205) is having the exact same issue and can't load anything either. Is the entire network down today? Please fix this ASAP, we have a hard deadline by 4:00 PM to get these numbers submitted!"
+
+
+![Scenario 4 Escalation Details](images/Capture7.PNG)
+![Scenario 4 Escalation Details](images/Capture7.PNG)
+
 ## Core Competencies Demonstrated
 *   **SLA Awareness:** Correctly categorized incoming tickets by urgency and business impact, prioritizing data security and operational uptime.
 *   **Professional Empathy & Communication:** Maintained clear, accessible, and jargon-free communication when interacting directly with end-users, ensuring a positive customer service experience.
