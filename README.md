@@ -59,6 +59,7 @@ Below is the centralized agent view showing the status, priority levels, and ass
 *   **Summary:** Handled a localized, high-impact network degradation incident on Floor 2. Identified pattern across multiple user tickets, isolated the failure domain using baseline CLI diagnostics (`ping` / `tracert`), escalated with actionable technical data to Tier 3 Network Engineering, and published a post-incident Knowledge Base Article.
 
 **User Message**
+
 "Hi Help Desk,
 
 I need someone to come up to Floor 2 right now. I was right in the middle of an incredibly important end-of-quarter reconciliation call with our primary vendor and my desk phone completely cut out and hung up on them. Now the screen on my phone just says 'Discovering...' and won't give me a dial tone.
